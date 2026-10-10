@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>薪窯パン工房 ルピナ｜汐見市港町のちいさなパン屋（架空店舗のサンプルサイト）</title>
+  <meta name="description" content="国産小麦と薪窯で焼く、汐見市港町のちいさなパン屋「ルピナ」。※ポートフォリオ用の架空店舗です。">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Zen+Maru+Gothic:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <p class="demo-ribbon">これはポートフォリオ用の<strong>架空店舗</strong>サンプルです</p>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="ルピナ トップへ">
+        <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="currentColor"/>
+          <path d="M12 28c0-7 5.5-12 12-12s12 5 12 12c0 2-1.5 3-3 3H15c-1.5 0-3-1-3-3z" fill="#FBF5EA"/>
+          <path d="M19 20l2 6M24 18v7M29 20l-2 6" stroke="#C2603A" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-text"><span class="logo-en">LUPINA</span><span class="logo-ja">薪窯パン工房 ルピナ</span></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="global-nav" id="global-nav" aria-label="ページ内メニュー">
+        <ul>
+          <li><a href="#concept">こだわり</a></li>
+          <li><a href="#menu">メニュー</a></li>
+          <li><a href="#schedule">焼き上がり</a></li>
+          <li><a href="#news">お知らせ</a></li>
+          <li><a href="#access">アクセス</a></li>
+          <li><a href="#reserve" class="nav-cta">取り置き予約</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Wood-fired Bakery since 2019</p>
+          <h1>朝の港町に、<br>薪の香りと<br>焼きたてを。</h1>
+          <p class="hero-lead">国産小麦と自家製酵母を、毎朝4時から薪窯で。<br>汐見市港町のちいさなパン屋です。</p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-primary">今日のメニューを見る</a>
+            <a href="#reserve" class="btn btn-ghost">取り置きを予約する</a>
+          </div>
+          <div class="open-status" id="open-status" aria-live="polite">
+            <span class="status-dot"></span><span class="status-text">営業時間を確認中…</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <svg viewBox="0 0 420 380" class="hero-svg">
+            <defs>
+              <radialGradient id="glow" cx="50%" cy="60%" r="60%">
+                <stop offset="0" stop-color="#F6C46B" stop-opacity=".9"/>
+                <stop offset="1" stop-color="#F6C46B" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <circle cx="210" cy="200" r="175" fill="#F1E2C6"/>
+            <!-- oven arch -->
+            <path d="M80 300V200a130 130 0 0 1 260 0v100z" fill="#3B2A20"/>
+            <path d="M110 300V210a100 100 0 0 1 200 0v90z" fill="#5A3A28"/>
+            <ellipse cx="210" cy="285" rx="110" ry="40" fill="url(#glow)"/>
+            <!-- flames -->
+            <path class="flame" d="M170 300c-10-20 5-30 8-48 12 14 18 26 10 48z" fill="#F08A3C"/>
+            <path class="flame f2" d="M205 300c-14-26 8-40 10-64 16 20 22 40 10 64z" fill="#F6B04A"/>
+            <path class="flame f3" d="M240 300c-8-18 4-28 6-42 10 12 14 24 8 42z" fill="#F08A3C"/>
+            <!-- bricks -->
+            <g fill="#C2603A">
+              <rect x="70" y="300" width="56" height="20" rx="3"/><rect x="130" y="300" width="56" height="20" rx="3"/>
+              <rect x="190" y="300" width="56" height="20" rx="3"/><rect x="250" y="300" width="56" height="20" rx="3"/>
+              <rect x="310" y="300" width="40" height="20" rx="3"/>
+              <rect x="70" y="324" width="30" height="20" rx="3"/><rect x="104" y="324" width="56" height="20" rx="3"/>
+              <rect x="164" y="324" width="56" height="20" rx="3"/><rect x="224" y="324" width="56" height="20" rx="3"/>
+              <rect x="284" y="324" width="66" height="20" rx="3"/>
+            </g>
+            <!-- bread loaves -->
+            <g transform="translate(36 120) rotate(-12)">
+              <ellipse cx="50" cy="30" rx="50" ry="28" fill="#D98A45"/>
+              <path d="M20 22l14 10M44 16l14 12M68 18l12 10" stroke="#F4D3A0" stroke-width="5" stroke-linecap="round"/>
+            </g>
+            <g transform="translate(300 90) rotate(14)">
+              <circle cx="36" cy="36" r="36" fill="#C9763A"/>
+              <path d="M14 30q22-14 44 0M14 44q22-14 44 0" stroke="#F4D3A0" stroke-width="5" fill="none" stroke-linecap="round"/>
+            </g>
+            <!-- wheat -->
+            <g stroke="#B0884A" stroke-width="3" fill="#E8C77E" stroke-linecap="round">
+              <path d="M370 330l-40-110" fill="none"/>
+              <ellipse cx="346" cy="262" rx="6" ry="12" transform="rotate(-30 346 262)"/>
+              <ellipse cx="338" cy="242" rx="6" ry="12" transform="rotate(-30 338 242)"/>
+              <ellipse cx="356" cy="252" rx="6" ry="12" transform="rotate(30 356 252)"/>
+              <ellipse cx="348" cy="232" rx="6" ry="12" transform="rotate(30 348 232)"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0 30c240 30 480 30 720 0s480-30 720 0v30H0z" fill="#FFFDF8"/></svg>
+      </div>
+    </section>
+
+    <!-- CONCEPT -->
+    <section class="section concept" id="concept">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Our Craft</p>
+          <h2>ルピナの3つのこだわり</h2>
+        </header>
+        <div class="feature-grid">
+          <article class="feature">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="#F1E2C6"/><path d="M32 50V18" stroke="#B0884A" stroke-width="3" stroke-linecap="round"/><g fill="#E8C77E" stroke="#B0884A" stroke-width="2"><ellipse cx="26" cy="26" rx="4" ry="8" transform="rotate(-30 26 26)"/><ellipse cx="38" cy="26" rx="4" ry="8" transform="rotate(30 38 26)"/><ellipse cx="26" cy="38" rx="4" ry="8" transform="rotate(-30 26 38)"/><ellipse cx="38" cy="38" rx="4" ry="8" transform="rotate(30 38 38)"/></g></svg>
+            </div>
+            <p class="feature-num">01</p>
+            <h3>国産小麦100%</h3>
+            <p>北海道と県内の契約農家から届く小麦を、季節ごとにブレンド。噛むほどに甘みが広がる生地に仕上げています。</p>
+          </article>
+          <article class="feature">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="#F1E2C6"/><path d="M18 44V32a14 14 0 0 1 28 0v12z" fill="#3B2A20"/><path d="M28 44c-3-6 2-9 3-14 4 4 6 8 3 14z" fill="#F08A3C"/></svg>
+            </div>
+            <p class="feature-num">02</p>
+            <h3>毎朝焚く薪窯</h3>
+            <p>店主が組み上げたレンガの薪窯は、約400℃。高温で一気に焼くことで、外はパリッと、中はしっとり。</p>
+          </article>
+          <article class="feature">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="#F1E2C6"/><rect x="22" y="20" width="20" height="26" rx="6" fill="#FBF5EA" stroke="#B0884A" stroke-width="2.5"/><circle cx="28" cy="34" r="2.5" fill="#C2603A"/><circle cx="35" cy="30" r="2" fill="#C2603A"/><circle cx="34" cy="39" r="2" fill="#C2603A"/><rect x="24" y="16" width="16" height="5" rx="2" fill="#B0884A"/></svg>
+            </div>
+            <p class="feature-num">03</p>
+            <h3>自家製の果実酵母</h3>
+            <p>季節の果物から起こした酵母で、ゆっくり18時間発酵。香り高く、翌日もおいしいパンをめざしています。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Menu</p>
+          <h2>定番メニュー</h2>
+          <p class="section-lead">価格はすべて税込です。季節により内容が変わります。</p>
+        </header>
+        <div class="menu-tabs" role="tablist" aria-label="メニューの種類">
+          <button role="tab" aria-selected="true" data-filter="all">すべて</button>
+          <button role="tab" aria-selected="false" data-filter="hard">ハード系</button>
+          <button role="tab" aria-selected="false" data-filter="sweet">甘いパン</button>
+          <button role="tab" aria-selected="false" data-filter="meal">お食事パン</button>
+        </div>
+        <ul class="menu-list" id="menu-list">
+          <li class="menu-item" data-cat="hard">
+            <div class="menu-thumb thumb-a" aria-hidden="true"></div>
+            <div class="menu-body"><h3>薪窯カンパーニュ<span class="tag tag-popular">人気No.1</span></h3><p>全粒粉とライ麦を合わせた、香ばしい大きな田舎パン。</p></div>
+            <p class="price">¥680<small>／ハーフ ¥360</small></p>
+          </li>
+          <li class="menu-item" data-cat="hard">
+            <div class="menu-thumb thumb-b" aria-hidden="true"></div>
+            <div class="menu-body"><h3>港町バゲット</h3><p>皮は薄くパリッと。朝と昼、1日2回焼き上げます。</p></div>
+            <p class="price">¥380</p>
+          </li>
+          <li class="menu-item" data-cat="sweet">
+            <div class="menu-thumb thumb-c" aria-hidden="true"></div>
+            <div class="menu-body"><h3>はちみつバタークロワッサン</h3><p>県産はちみつを塗って焼いた、照りのあるクロワッサン。</p></div>
+            <p class="price">¥320</p>
+          </li>
+          <li class="menu-item" data-cat="sweet">
+            <div class="menu-thumb thumb-d" aria-hidden="true"></div>
+            <div class="menu-body"><h3>季節のフルーツデニッシュ<span class="tag">季節限定</span></h3><p>秋は和梨とカスタード。季節ごとに果物が替わります。</p></div>
+            <p class="price">¥420</p>
+          </li>
+          <li class="menu-item" data-cat="meal">
+            <div class="menu-thumb thumb-e" aria-hidden="true"></div>
+            <div class="menu-body"><h3>しらすと青ねぎのフォカッチャ</h3><p>港町らしい一品。オリーブオイルとしらすの塩気が好相性。</p></div>
+            <p class="price">¥360</p>
+          </li>
+          <li class="menu-item" data-cat="meal">
+            <div class="menu-thumb thumb-f" aria-hidden="true"></div>
+            <div class="menu-body"><h3>厚切りベーコンエピ</h3><p>自家製ベーコンを包んだ、麦の穂のかたちのパン。</p></div>
+            <p class="price">¥340</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section class="section schedule" id="schedule">
+      <div class="container schedule-inner">
+        <header class="section-head align-left">
+          <p class="eyebrow">Baking Schedule</p>
+          <h2>焼き上がりの時間</h2>
+          <p class="section-lead">焼きたてを狙うならこの時間に。<br>当日の状況は店頭の黒板でお知らせします。</p>
+        </header>
+        <ol class="timeline">
+          <li><time>8:00</time><div><strong>開店・朝の第一便</strong><span>カンパーニュ／クロワッサン／食パン</span></div></li>
+          <li><time>10:30</time><div><strong>お食事パン</strong><span>フォカッチャ／エピ／サンドイッチ</span></div></li>
+          <li><time>12:00</time><div><strong>バゲット第二便</strong><span>お昼どきに合わせて焼き直し</span></div></li>
+          <li><time>14:00</time><div><strong>おやつの時間</strong><span>デニッシュ／スコーン／焼き菓子</span></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="section news" id="news">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">News</p>
+          <h2>お知らせ</h2>
+        </header>
+        <ul class="news-list">
+          <li><time datetime="2026-10-01">2026.10.01</time><span class="news-cat">新商品</span><p>秋限定「和梨とカスタードのデニッシュ」が始まりました。</p></li>
+          <li><time datetime="2026-09-20">2026.09.20</time><span class="news-cat cat-info">営業</span><p>10月の定休日は毎週月・火曜日です。13日（月・祝）は営業します。</p></li>
+          <li><time datetime="2026-09-05">2026.09.05</time><span class="news-cat cat-event">イベント</span><p>港町マルシェ（第3日曜）に出店します。限定のミニカンパーニュを販売予定。</p></li>
+        </ul>
+        <p class="demo-note">※掲載内容はすべて架空のものです。</p>
+      </div>
+    </section>
+
+    <!-- ACCESS -->
+    <section class="section access" id="access">
+      <div class="container access-inner">
+        <div class="access-info">
+          <header class="section-head align-left">
+            <p class="eyebrow">Access &amp; Hours</p>
+            <h2>店舗情報</h2>
+          </header>
+          <dl class="info-table">
+            <div><dt>店名</dt><dd>薪窯パン工房 ルピナ</dd></div>
+            <div><dt>住所</dt><dd>〒000-0000<br>架空県 汐見市 港町2-14</dd></div>
+            <div><dt>営業時間</dt><dd>8:00〜17:00（売り切れ次第終了）</dd></div>
+            <div><dt>定休日</dt><dd>月曜日・火曜日</dd></div>
+            <div><dt>電話</dt><dd>000-0000-0000（架空の番号です）</dd></div>
+            <div><dt>アクセス</dt><dd>汐見港駅から徒歩6分／駐車場3台</dd></div>
+          </dl>
+        </div>
+        <figure class="map-card">
+          <svg viewBox="0 0 400 300" role="img" aria-label="店舗周辺の簡易地図（イメージ）">
+            <rect width="400" height="300" fill="#EDE3D0"/>
+            <path d="M0 230c80-20 140 10 220-10s120-30 180-20v100H0z" fill="#9CC3C9"/>
+            <text x="300" y="275" font-size="13" fill="#3F6B72" font-family="sans-serif">汐見港</text>
+            <path d="M0 120h400M140 0v230M290 0v215" stroke="#FFFDF8" stroke-width="14"/>
+            <path d="M0 60h400" stroke="#FFFDF8" stroke-width="8"/>
+            <rect x="40" y="80" width="70" height="26" rx="4" fill="#3B2A20"/>
+            <text x="75" y="98" font-size="12" fill="#FBF5EA" text-anchor="middle" font-family="sans-serif">汐見港駅</text>
+            <path d="M110 93h45v40h135" stroke="#C2603A" stroke-width="3" stroke-dasharray="6 5" fill="none"/>
+            <circle cx="318" cy="150" r="14" fill="#C2603A"/>
+            <path d="M318 150l-8-18h16z" fill="#C2603A"/>
+            <circle cx="318" cy="146" r="5" fill="#FBF5EA"/>
+            <text x="318" y="185" font-size="13" fill="#3B2A20" text-anchor="middle" font-weight="bold" font-family="sans-serif">ルピナ</text>
+            <text x="200" y="40" font-size="11" fill="#7A6656" text-anchor="middle" font-family="sans-serif">港町通り</text>
+          </svg>
+          <figcaption>簡易地図（イメージ）。実サイトでは地図サービスの埋め込みに差し替えます。</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- RESERVE (DEMO FORM) -->
+    <section class="section reserve" id="reserve">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Reservation</p>
+          <h2>パンの取り置き予約</h2>
+          <p class="section-lead">前日17時までのご予約で、ご希望のパンをお取り置きします。</p>
+        </header>
+        <form class="reserve-form" id="reserve-form" novalidate>
+          <p class="form-demo-badge" role="note"><strong>DEMO</strong>このフォームはデモです。送信先が未設定のため、入力内容はどこにも送信・保存されません。</p>
+          <div class="form-grid">
+            <label class="field">
+              <span class="label">お名前<em>必須</em></span>
+              <input type="text" name="name" autocomplete="name" required placeholder="例）港 花子">
+              <span class="error" aria-live="polite"></span>
+            </label>
+            <label class="field">
+              <span class="label">電話番号<em>必須</em></span>
+              <input type="tel" name="tel" autocomplete="tel" required placeholder="例）000-0000-0000" inputmode="tel">
+              <span class="error" aria-live="polite"></span>
+            </label>
+            <label class="field">
+              <span class="label">受け取り日<em>必須</em></span>
+              <input type="date" name="date" required>
+              <span class="error" aria-live="polite"></span>
+            </label>
+            <label class="field">
+              <span class="label">受け取り時間</span>
+              <select name="time">
+                <option>8:00〜10:00</option>
+                <option>10:00〜12:00</option>
+                <option>12:00〜14:00</option>
+                <option>14:00〜17:00</option>
+              </select>
+            </label>
+            <label class="field field-wide">
+              <span class="label">ご希望のパンと個数<em>必須</em></span>
+              <textarea name="items" rows="4" required placeholder="例）薪窯カンパーニュ 1個、港町バゲット 2本"></textarea>
+              <span class="error" aria-live="polite"></span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">入力内容を確認する（デモ）</button>
+          <div class="form-result" id="form-result" hidden tabindex="-1">
+            <p class="result-title">入力チェックが完了しました（デモ表示）</p>
+            <p>これはサンプルサイトのため、<strong>予約は送信されていません</strong>。実際の制作では、メール送信やフォームサービスとの連携を設定します。</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">LUPINA <span>薪窯パン工房 ルピナ</span></p>
+      <p class="footer-note">このサイトはホームページ制作サービスのサンプルとして作成した<strong>架空の店舗</strong>です。店名・住所・電話番号・商品・お知らせはすべて架空のものです。</p>
+      <p class="copyright"><small>&copy; 2026 LUPINA (fictional). Sample design.</small></p>
+    </div>
+  </footer>
+
+  <a href="#reserve" class="sp-cta">取り置きを予約する</a>
+  <a href="#top" class="to-top" aria-label="ページの先頭へ">↑</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

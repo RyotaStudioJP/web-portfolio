@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>製品情報｜株式会社リクト計測（架空）</title>
+  <meta name="description" content="センサー・ゲートウェイ・クラウドの製品一覧と仕様比較。">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <p class="demo-ribbon">架空企業のサンプルサイトです（社名・数値等はすべて架空）</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="リクト計測 トップページ"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" fill="#1D232B"/><path d="M8 28l7-9 6 5 11-14" stroke="#F2B705" stroke-width="3" fill="none" stroke-linecap="square"/><path d="M8 33h24" stroke="#FFFFFF" stroke-width="1.5"/><path d="M8 31v4M32 31v4" stroke="#FFFFFF" stroke-width="1.5"/></svg><span class="logo-text"><span class="logo-en">RIKTO</span><span class="logo-ja">株式会社リクト計測</span></span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く"><span></span><span></span><span></span></button>
+      <nav class="global-nav" id="global-nav" aria-label="グローバルナビゲーション">
+        <ul><li><a href="solutions.html">事業・ソリューション</a></li><li><a href="products.html" aria-current="page">製品情報</a></li><li><a href="cases.html">導入事例</a></li><li><a href="company.html">会社情報</a></li></ul>
+        <div class="header-cta"><a href="contact.html?type=doc" class="btn btn-outline btn-sm">資料請求</a><a href="contact.html" class="btn btn-primary btn-sm">お問い合わせ</a></div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="section-label">Products</p>
+        <h1>製品情報</h1>
+        <p>センサー、ゲートウェイ、クラウドを組み合わせて利用します。チェックを入れると仕様を並べて比較できます。</p>
+        <ol class="breadcrumb" aria-label="パンくずリスト"><li><a href="index.html">HOME</a></li><li aria-current="page">製品情報</li></ol>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar" role="group" aria-label="製品カテゴリで絞り込み">
+          <span class="label">FILTER:</span>
+          <button type="button" class="filter-btn" data-filter="all" aria-pressed="true">すべて（6）</button>
+          <button type="button" class="filter-btn" data-filter="sensor" aria-pressed="false">センサー（3）</button>
+          <button type="button" class="filter-btn" data-filter="gateway" aria-pressed="false">ゲートウェイ（2）</button>
+          <button type="button" class="filter-btn" data-filter="software" aria-pressed="false">ソフトウェア（1）</button>
+        </div>
+        <div class="product-grid" id="product-grid">
+          <article class="product-card reveal" data-cat="sensor" data-model="RV-200">
+            <div class="product-visual"><svg viewBox="0 0 120 90" aria-hidden="true"><rect x="38" y="10" width="44" height="64" rx="6" fill="#FFFFFF" stroke="#1D232B" stroke-width="3"/><circle cx="60" cy="34" r="10" fill="#2F5D8A"/><rect x="48" y="54" width="24" height="6" fill="#F2B705"/><rect x="34" y="74" width="52" height="8" fill="#1D232B"/></svg><span class="model">RV-200</span></div>
+            <div class="product-body"><span class="product-cat">センサー</span><h3>RV-200　無線振動センサー</h3><p>回転機械に磁石で取り付けるだけ。3軸の振動と表面温度を計測します。</p><dl class="product-specs"><div><dt>計測</dt><dd>振動3軸 / 温度</dd></div><div><dt>通信</dt><dd>920MHz帯</dd></div><div><dt>電池</dt><dd>約5年</dd></div><div><dt>保護等級</dt><dd>IP67</dd></div></dl>
+              <label class="compare-toggle"><input type="checkbox" class="compare-check" value="RV-200">比較リストに追加</label></div>
+          </article><article class="product-card reveal" data-cat="sensor" data-model="RT-40">
+            <div class="product-visual"><svg viewBox="0 0 120 90" aria-hidden="true"><rect x="38" y="10" width="44" height="64" rx="6" fill="#FFFFFF" stroke="#1D232B" stroke-width="3"/><circle cx="60" cy="34" r="10" fill="#2F5D8A"/><rect x="48" y="54" width="24" height="6" fill="#F2B705"/><rect x="34" y="74" width="52" height="8" fill="#1D232B"/></svg><span class="model">RT-40</span></div>
+            <div class="product-body"><span class="product-cat">センサー</span><h3>RT-40　温湿度ロガー</h3><p>倉庫・クリーンルーム向け。±0.2°Cの精度で温度と湿度を記録します。</p><dl class="product-specs"><div><dt>計測</dt><dd>温度 / 湿度</dd></div><div><dt>精度</dt><dd>±0.2°C</dd></div><div><dt>電池</dt><dd>約3年</dd></div><div><dt>保護等級</dt><dd>IP65</dd></div></dl>
+              <label class="compare-toggle"><input type="checkbox" class="compare-check" value="RT-40">比較リストに追加</label></div>
+          </article><article class="product-card reveal" data-cat="sensor" data-model="RP-10">
+            <div class="product-visual"><svg viewBox="0 0 120 90" aria-hidden="true"><rect x="38" y="10" width="44" height="64" rx="6" fill="#FFFFFF" stroke="#1D232B" stroke-width="3"/><circle cx="60" cy="34" r="10" fill="#2F5D8A"/><rect x="48" y="54" width="24" height="6" fill="#F2B705"/><rect x="34" y="74" width="52" height="8" fill="#1D232B"/></svg><span class="model">RP-10</span></div>
+            <div class="product-body"><span class="product-cat">センサー</span><h3>RP-10　差圧センサー</h3><p>クリーンルームの室間差圧を常時監視。ドア開放の検知にも使えます。</p><dl class="product-specs"><div><dt>計測</dt><dd>差圧</dd></div><div><dt>範囲</dt><dd>±250Pa</dd></div><div><dt>電源</dt><dd>AC / PoE</dd></div><div><dt>保護等級</dt><dd>IP54</dd></div></dl>
+              <label class="compare-toggle"><input type="checkbox" class="compare-check" value="RP-10">比較リストに追加</label></div>
+          </article><article class="product-card reveal" data-cat="gateway" data-model="RG-10">
+            <div class="product-visual"><svg viewBox="0 0 120 90" aria-hidden="true"><rect x="20" y="30" width="80" height="44" rx="4" fill="#FFFFFF" stroke="#1D232B" stroke-width="3"/><path d="M40 30V10M80 30V14" stroke="#1D232B" stroke-width="3"/><circle cx="40" cy="52" r="4" fill="#2E7D4F"/><circle cx="54" cy="52" r="4" fill="#2E7D4F"/><circle cx="68" cy="52" r="4" fill="#F2B705"/><rect x="78" y="48" width="12" height="8" fill="#2F5D8A"/></svg><span class="model">RG-10</span></div>
+            <div class="product-body"><span class="product-cat">ゲートウェイ</span><h3>RG-10　ゲートウェイ</h3><p>最大100台のセンサーを接続。LTE / 有線LANでクラウドへ送信します。</p><dl class="product-specs"><div><dt>接続数</dt><dd>最大100台</dd></div><div><dt>上り通信</dt><dd>LTE / LAN</dd></div><div><dt>電源</dt><dd>AC</dd></div><div><dt>保護等級</dt><dd>IP40</dd></div></dl>
+              <label class="compare-toggle"><input type="checkbox" class="compare-check" value="RG-10">比較リストに追加</label></div>
+          </article><article class="product-card reveal" data-cat="gateway" data-model="RG-EX">
+            <div class="product-visual"><svg viewBox="0 0 120 90" aria-hidden="true"><rect x="20" y="30" width="80" height="44" rx="4" fill="#FFFFFF" stroke="#1D232B" stroke-width="3"/><path d="M40 30V10M80 30V14" stroke="#1D232B" stroke-width="3"/><circle cx="40" cy="52" r="4" fill="#2E7D4F"/><circle cx="54" cy="52" r="4" fill="#2E7D4F"/><circle cx="68" cy="52" r="4" fill="#F2B705"/><rect x="78" y="48" width="12" height="8" fill="#2F5D8A"/></svg><span class="model">RG-EX</span></div>
+            <div class="product-body"><span class="product-cat">ゲートウェイ</span><h3>RG-EX　防爆ゲートウェイ</h3><p>化学プラントなど防爆エリアでの利用を想定したモデルです。</p><dl class="product-specs"><div><dt>接続数</dt><dd>最大50台</dd></div><div><dt>上り通信</dt><dd>LAN</dd></div><div><dt>電源</dt><dd>DC24V</dd></div><div><dt>保護等級</dt><dd>IP66</dd></div></dl>
+              <label class="compare-toggle"><input type="checkbox" class="compare-check" value="RG-EX">比較リストに追加</label></div>
+          </article><article class="product-card reveal" data-cat="software" data-model="RIKTO VIEW">
+            <div class="product-visual"><svg viewBox="0 0 120 90" aria-hidden="true"><rect x="10" y="12" width="100" height="66" rx="3" fill="#FFFFFF" stroke="#1D232B" stroke-width="3"/><path d="M10 24h100" stroke="#1D232B" stroke-width="2"/><path d="M20 64l16-14 12 8 18-20 14 10 18-12" stroke="#2F5D8A" stroke-width="3" fill="none"/><rect x="20" y="30" width="24" height="6" fill="#F2B705"/></svg><span class="model">RIKTO VIEW</span></div>
+            <div class="product-body"><span class="product-cat">ソフトウェア</span><h3>RIKTO VIEW　クラウド</h3><p>グラフ表示・しきい値通知・帳票出力。ブラウザから利用でき、利用人数は無制限です。</p><dl class="product-specs"><div><dt>提供形態</dt><dd>SaaS</dd></div><div><dt>保存期間</dt><dd>最大10年</dd></div><div><dt>通知</dt><dd>メール / API</dd></div><div><dt>稼働率</dt><dd>99.9%</dd></div></dl>
+              <label class="compare-toggle"><input type="checkbox" class="compare-check" value="RIKTO VIEW">比較リストに追加</label></div>
+          </article>
+        </div>
+        <div class="compare-panel" id="compare">
+          <div class="section-head"><div><p class="section-label">Compare</p><h2 class="section-title">仕様比較</h2><p class="lead">製品カードの「比較リストに追加」にチェックを入れると、ここに並べて表示します（最大3製品）。</p></div></div>
+          <div id="compare-output"><p class="empty-note">比較する製品が選ばれていません。</p></div>
+        </div>
+        <p class="case-note">※製品名・仕様は架空のものです。価格は個別見積もりのため掲載していません（という設定です）。</p>
+      </div>
+    </section>
+  </main>
+  <section class="cta">
+    <div class="container cta-inner">
+      <div><h2>現場のデータ活用、どこから始めるか一緒に考えます。</h2><p>製品資料のダウンロード、PoC（試験導入）のご相談はこちらから。</p></div>
+      <div class="cta-actions"><a href="contact.html?type=doc" class="btn btn-outline">製品資料を請求する</a><a href="contact.html" class="btn btn-signal">お問い合わせ</a></div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand"><a href="index.html" class="logo"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" fill="#1D232B"/><path d="M8 28l7-9 6 5 11-14" stroke="#F2B705" stroke-width="3" fill="none" stroke-linecap="square"/><path d="M8 33h24" stroke="#FFFFFF" stroke-width="1.5"/><path d="M8 31v4M32 31v4" stroke="#FFFFFF" stroke-width="1.5"/></svg><span class="logo-text"><span class="logo-en">RIKTO</span><span class="logo-ja">株式会社リクト計測</span></span></a><p>〒000-0000 架空県 湾岸市 テクノパーク1-1<br>TEL 000-000-0000（架空）</p></div>
+        <div><h4>SOLUTIONS</h4><ul><li><a href="solutions.html#predictive">設備の予知保全</a></li><li><a href="solutions.html#quality">品質データの可視化</a></li><li><a href="solutions.html#environment">環境モニタリング</a></li></ul></div>
+        <div><h4>PRODUCTS</h4><ul><li><a href="products.html">製品一覧</a></li><li><a href="products.html#compare">仕様比較</a></li><li><a href="cases.html">導入事例</a></li></ul></div>
+        <div><h4>COMPANY</h4><ul><li><a href="company.html">会社概要</a></li><li><a href="company.html#history">沿革</a></li><li><a href="contact.html">お問い合わせ</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>このサイトはホームページ制作サービスのサンプルとして作成した<strong>架空の企業</strong>です。実在の企業・製品とは関係ありません。</p><p class="mono">&copy; 2026 RIKTO Metrology Inc. (fictional)</p></div>
+    </div>
+  </footer>
+  <div class="compare-bar" id="compare-bar" aria-live="polite">
+    <div class="container"><p><span id="compare-count">0</span>製品を選択中（最大3製品）</p><div class="btn-group"><button type="button" class="btn btn-outline btn-sm" id="compare-clear">選択を解除</button><a href="#compare" class="btn btn-signal btn-sm">比較表を見る</a></div></div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

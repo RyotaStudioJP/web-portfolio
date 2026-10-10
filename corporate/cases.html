@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>導入事例｜株式会社リクト計測（架空）</title>
+  <meta name="description" content="業種別の導入事例。">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <p class="demo-ribbon">架空企業のサンプルサイトです（社名・数値等はすべて架空）</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="リクト計測 トップページ"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" fill="#1D232B"/><path d="M8 28l7-9 6 5 11-14" stroke="#F2B705" stroke-width="3" fill="none" stroke-linecap="square"/><path d="M8 33h24" stroke="#FFFFFF" stroke-width="1.5"/><path d="M8 31v4M32 31v4" stroke="#FFFFFF" stroke-width="1.5"/></svg><span class="logo-text"><span class="logo-en">RIKTO</span><span class="logo-ja">株式会社リクト計測</span></span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く"><span></span><span></span><span></span></button>
+      <nav class="global-nav" id="global-nav" aria-label="グローバルナビゲーション">
+        <ul><li><a href="solutions.html">事業・ソリューション</a></li><li><a href="products.html">製品情報</a></li><li><a href="cases.html" aria-current="page">導入事例</a></li><li><a href="company.html">会社情報</a></li></ul>
+        <div class="header-cta"><a href="contact.html?type=doc" class="btn btn-outline btn-sm">資料請求</a><a href="contact.html" class="btn btn-primary btn-sm">お問い合わせ</a></div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="section-label">Case Studies</p>
+        <h1>導入事例</h1>
+        <p>業種や規模の異なる企業での活用例です。業種で絞り込んで表示できます。</p>
+        <ol class="breadcrumb" aria-label="パンくずリスト"><li><a href="index.html">HOME</a></li><li aria-current="page">導入事例</li></ol>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar" role="group" aria-label="業種で絞り込み">
+          <span class="label">INDUSTRY:</span>
+          <button type="button" class="filter-btn case-filter" data-filter="all" aria-pressed="true">すべて</button>
+          <button type="button" class="filter-btn case-filter" data-filter="mfg" aria-pressed="false">製造（組立・加工）</button>
+          <button type="button" class="filter-btn case-filter" data-filter="food" aria-pressed="false">食品・物流</button>
+          <button type="button" class="filter-btn case-filter" data-filter="chem" aria-pressed="false">化学・プラント</button>
+        </div>
+        <p class="case-note" id="case-count" aria-live="polite" style="margin:0 0 20px">6件の事例を表示しています</p>
+        <div id="case-list"><article class="case-detail reveal" data-ind="mfg">
+          <div class="case-visual"><svg viewBox="0 0 200 110" aria-hidden="true"><rect x="20" y="60" width="160" height="12" fill="#2F5D8A"/><circle cx="60" cy="50" r="18" fill="none" stroke="#1D232B" stroke-width="5"/><circle cx="140" cy="50" r="18" fill="none" stroke="#1D232B" stroke-width="5"/><path d="M60 50l14-8M140 50l-14 8" stroke="#F2B705" stroke-width="4"/><path d="M20 86h160" stroke="#1D232B" stroke-width="2" stroke-dasharray="6 6"/></svg><span class="case-industry">自動車部品</span></div>
+          <div class="case-detail-body">
+            <p class="case-company">A社（自動車部品メーカー／従業員 約800名）</p>
+            <h2>プレス設備の突発停止を、振動データで事前に検知</h2>
+            <p class="case-company">導入製品：RV-200 ×64台、RG-10 ×4台、RIKTO VIEW</p>
+            <div class="cpr"><div><h3>CHALLENGE / 課題</h3><p>大型プレス機の主モーターが年に数回突発停止し、そのたびに半日以上ラインが止まっていた。点検は月1回の目視と聴音のみ。</p></div><div><h3>SOLUTION / 対策</h3><p>主要設備64台に振動センサーを後付け。軸受の振動が平常時から外れた段階で保全担当者に通知する運用に切り替えた。</p></div><div><h3>RESULT / 効果</h3><p>交換部品を計画的に手配できるようになり、突発停止が大きく減った。点検ルートも見直し、巡回時間を短縮。</p></div></div>
+            <div class="result-nums"><div><b>-72%</b><span>突発停止の件数（前年比）</span></div><div><b>-35%</b><span>点検の巡回時間</span></div></div>
+          </div>
+        </article><article class="case-detail reveal" data-ind="food">
+          <div class="case-visual"><svg viewBox="0 0 200 110" aria-hidden="true"><rect x="30" y="30" width="140" height="56" fill="#FFFFFF" stroke="#1D232B" stroke-width="3"/><path d="M30 46h140" stroke="#1D232B" stroke-width="2"/><rect x="48" y="56" width="22" height="22" fill="#2F5D8A"/><rect x="88" y="56" width="22" height="22" fill="#2F5D8A"/><rect x="128" y="56" width="22" height="22" fill="#F2B705"/><text x="100" y="22" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1D232B">4.0°C</text></svg><span class="case-industry">食品</span></div>
+          <div class="case-detail-body">
+            <p class="case-company">B社（食品メーカー／従業員 約300名）</p>
+            <h2>冷蔵倉庫28室の温度記録を、紙から自動記録へ</h2>
+            <p class="case-company">導入製品：RT-40 ×56台、RG-10 ×2台、RIKTO VIEW</p>
+            <div class="cpr"><div><h3>CHALLENGE / 課題</h3><p>28室の冷蔵庫を1日3回巡回し、温度を手書きで記録していた。夜間の温度異常に翌朝まで気づけないことがあった。</p></div><div><h3>SOLUTION / 対策</h3><p>各室に校正証明付きの温湿度ロガーを2台ずつ設置。基準を外れると夜間でも当番者にメールで通知する。</p></div><div><h3>RESULT / 効果</h3><p>記録作業がなくなり、取引先監査には帳票をそのまま提出。夜間の異常にも即座に対応できるようになった。</p></div></div>
+            <div class="result-nums"><div><b>月40h</b><span>記録・点検作業の削減</span></div><div><b>0件</b><span>導入後の温度逸脱による廃棄</span></div></div>
+          </div>
+        </article><article class="case-detail reveal" data-ind="mfg">
+          <div class="case-visual"><svg viewBox="0 0 200 110" aria-hidden="true"><rect x="70" y="25" width="60" height="60" fill="#1D232B"/><rect x="82" y="37" width="36" height="36" fill="#2F5D8A"/><g stroke="#1D232B" stroke-width="3"><path d="M80 25v-10M100 25v-10M120 25v-10M80 85v10M100 85v10M120 85v10M70 40H58M70 55H58M70 70H58M130 40h12M130 55h12M130 70h12"/></g><circle cx="100" cy="55" r="6" fill="#F2B705"/></svg><span class="case-industry">半導体</span></div>
+          <div class="case-detail-body">
+            <p class="case-company">C社（電子部品メーカー／従業員 約1,200名）</p>
+            <h2>クリーンルームの差圧・粒子数を一元監視</h2>
+            <p class="case-company">導入製品：RP-10 ×30台、RT-40 ×40台、RG-10 ×3台</p>
+            <div class="cpr"><div><h3>CHALLENGE / 課題</h3><p>差圧・温湿度・粒子数の計測器がメーカーごとに分かれ、異常に気づくまで最大15分かかっていた。</p></div><div><h3>SOLUTION / 対策</h3><p>既存の粒子カウンターからもデータを取り込み、1画面で全エリアを監視。ドア開放の検知も追加した。</p></div><div><h3>RESULT / 効果</h3><p>異常の発生から通知までがほぼ即時になり、歩留まりの低下を早い段階で防げるようになった。</p></div></div>
+            <div class="result-nums"><div><b>即時</b><span>異常に気づくまでの時間（従来 最大15分）</span></div><div><b>+1.8pt</b><span>歩留まり</span></div></div>
+          </div>
+        </article><article class="case-detail reveal" data-ind="chem">
+          <div class="case-visual"><svg viewBox="0 0 200 110" aria-hidden="true"><rect x="40" y="20" width="40" height="70" rx="4" fill="#FFFFFF" stroke="#1D232B" stroke-width="3"/><rect x="120" y="20" width="40" height="70" rx="4" fill="#FFFFFF" stroke="#1D232B" stroke-width="3"/><rect x="43" y="50" width="34" height="37" fill="#2F5D8A"/><rect x="123" y="38" width="34" height="49" fill="#F2B705"/><path d="M80 40h40" stroke="#1D232B" stroke-width="3"/></svg><span class="case-industry">化学</span></div>
+          <div class="case-detail-body">
+            <p class="case-company">D社（化学メーカー／従業員 約600名）</p>
+            <h2>防爆エリアのポンプ監視を、巡回点検から常時監視へ</h2>
+            <p class="case-company">導入製品：RV-200 ×24台、RG-EX ×2台、RIKTO VIEW</p>
+            <div class="cpr"><div><h3>CHALLENGE / 課題</h3><p>防爆エリアは電気工事の制約が多く、ポンプの状態監視は2人1組の巡回点検に頼っていた。</p></div><div><h3>SOLUTION / 対策</h3><p>防爆ゲートウェイと電池式センサーで、配線工事を最小限に抑えて24台のポンプを常時監視。</p></div><div><h3>RESULT / 効果</h3><p>危険エリアへの立ち入り回数が減り、メカニカルシール劣化の兆候を早めにとらえられるようになった。</p></div></div>
+            <div class="result-nums"><div><b>-60%</b><span>危険エリアへの立ち入り回数</span></div><div><b>3件</b><span>初年度に未然に防げた故障</span></div></div>
+          </div>
+        </article><article class="case-detail reveal" data-ind="food">
+          <div class="case-visual"><svg viewBox="0 0 200 110" aria-hidden="true"><path d="M30 80V40l70-22 70 22v40z" fill="#FFFFFF" stroke="#1D232B" stroke-width="3"/><rect x="60" y="52" width="24" height="28" fill="#2F5D8A"/><rect x="88" y="52" width="24" height="28" fill="#2F5D8A"/><rect x="116" y="52" width="24" height="28" fill="#F2B705"/></svg><span class="case-industry">物流</span></div>
+          <div class="case-detail-body">
+            <p class="case-company">E社（物流会社／従業員 約450名）</p>
+            <h2>冷凍倉庫の温度記録を、荷主へのレポートに活用</h2>
+            <p class="case-company">導入製品：RT-40 ×32台、RG-10 ×2台、RIKTO VIEW</p>
+            <div class="cpr"><div><h3>CHALLENGE / 課題</h3><p>荷主から保管温度の証明を求められるたびに、紙の記録をスキャンして送っていた。</p></div><div><h3>SOLUTION / 対策</h3><p>庫内の温度を自動記録し、荷主ごとに月次の温度レポートを自動作成する仕組みを導入。</p></div><div><h3>RESULT / 効果</h3><p>レポート作成の手間がなくなり、温度管理の透明性が評価されて新規の荷主獲得にもつながった。</p></div></div>
+            <div class="result-nums"><div><b>月12h</b><span>レポート作成時間の削減</span></div><div><b>2社</b><span>温度管理を理由に獲得した新規荷主</span></div></div>
+          </div>
+        </article><article class="case-detail reveal" data-ind="mfg">
+          <div class="case-visual"><svg viewBox="0 0 200 110" aria-hidden="true"><rect x="40" y="30" width="120" height="50" fill="#FFFFFF" stroke="#1D232B" stroke-width="3"/><path d="M40 55h120" stroke="#2F5D8A" stroke-width="3"/><circle cx="70" cy="55" r="10" fill="#F2B705"/><circle cx="130" cy="55" r="10" fill="#2F5D8A"/></svg><span class="case-industry">産業機械</span></div>
+          <div class="case-detail-body">
+            <p class="case-company">F社（産業機械メーカー／従業員 約250名）</p>
+            <h2>自社製品にセンサーを組み込み、保守サービスを開始</h2>
+            <p class="case-company">導入製品：RV-200（OEM）、RIKTO VIEW（API連携）</p>
+            <div class="cpr"><div><h3>CHALLENGE / 課題</h3><p>納入した機械の故障は、顧客から連絡を受けて初めて把握していた。保守契約の提案材料も乏しかった。</p></div><div><h3>SOLUTION / 対策</h3><p>出荷する機械に振動センサーを組み込み、APIで自社の保守ポータルに稼働データを表示。</p></div><div><h3>RESULT / 効果</h3><p>稼働データにもとづく予防保守プランを有償サービスとして開始。顧客の満足度も向上した。</p></div></div>
+            <div class="result-nums"><div><b>38%</b><span>保守契約の加入率（新規納入機）</span></div><div><b>-45%</b><span>緊急出動の件数</span></div></div>
+          </div>
+        </article></div>
+        <p class="case-note">※掲載している企業・数値はすべて架空です。実際の制作では、お客様の許諾を得た事例を掲載します。</p>
+      </div>
+    </section>
+  </main>
+  <section class="cta">
+    <div class="container cta-inner">
+      <div><h2>現場のデータ活用、どこから始めるか一緒に考えます。</h2><p>製品資料のダウンロード、PoC（試験導入）のご相談はこちらから。</p></div>
+      <div class="cta-actions"><a href="contact.html?type=doc" class="btn btn-outline">製品資料を請求する</a><a href="contact.html" class="btn btn-signal">お問い合わせ</a></div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand"><a href="index.html" class="logo"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" fill="#1D232B"/><path d="M8 28l7-9 6 5 11-14" stroke="#F2B705" stroke-width="3" fill="none" stroke-linecap="square"/><path d="M8 33h24" stroke="#FFFFFF" stroke-width="1.5"/><path d="M8 31v4M32 31v4" stroke="#FFFFFF" stroke-width="1.5"/></svg><span class="logo-text"><span class="logo-en">RIKTO</span><span class="logo-ja">株式会社リクト計測</span></span></a><p>〒000-0000 架空県 湾岸市 テクノパーク1-1<br>TEL 000-000-0000（架空）</p></div>
+        <div><h4>SOLUTIONS</h4><ul><li><a href="solutions.html#predictive">設備の予知保全</a></li><li><a href="solutions.html#quality">品質データの可視化</a></li><li><a href="solutions.html#environment">環境モニタリング</a></li></ul></div>
+        <div><h4>PRODUCTS</h4><ul><li><a href="products.html">製品一覧</a></li><li><a href="products.html#compare">仕様比較</a></li><li><a href="cases.html">導入事例</a></li></ul></div>
+        <div><h4>COMPANY</h4><ul><li><a href="company.html">会社概要</a></li><li><a href="company.html#history">沿革</a></li><li><a href="contact.html">お問い合わせ</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>このサイトはホームページ制作サービスのサンプルとして作成した<strong>架空の企業</strong>です。実在の企業・製品とは関係ありません。</p><p class="mono">&copy; 2026 RIKTO Metrology Inc. (fictional)</p></div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
